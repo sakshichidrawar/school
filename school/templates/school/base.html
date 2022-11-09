@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>crud operation </title>
+  <link rel="stylesheet" href="{% static 'school/css/bootstrap.css' %}">
+</head>
+<body style="background-color:moccasin">
+  </form>
+  <div class ="container mt-5">
+    
+    <h2 class="alert alert-success" role="alert" align="center">crud operation for school</h2>
+    <a href="{% url 'first' %}" align='center'>first</a><br><hr>
+    <a href="{% url 'second' %}" align='center'>second</a><br><hr>
+    <a href="{% url 'third' %}" align='center'>third</a><br><hr>
+    <a href="{% url 'fourth' %}" align='center'>fourth</a><br><hr>
+  
+</div>
+    {% block content%}{% endblock content%}
+  </div>
+
+  <script src="{% static 'emp/js/jquery.js' %}"></script>
+  <script src="{% static 'emp/js/popper.js' %}"></script>
+  <script src="{% static 'emp/js/bootstrap.js' %}"></script>
+</body>
+</html>
+
+    
+</body>
+</html>
